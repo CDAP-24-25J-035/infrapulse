@@ -1,6 +1,3 @@
-// * Components
-import CustomButton from "./CustomButton";
-
 // * MUI Components
 import EngineeringIcon from "@mui/icons-material/Engineering";
 import { Box, Typography, styled } from "@mui/material";
@@ -8,14 +5,6 @@ import ManageSearchIcon from "@mui/icons-material/ManageSearch";
 import TaskIcon from "@mui/icons-material/Task";
 import MergeTypeIcon from "@mui/icons-material/MergeType";
 import ElectricalServicesIcon from "@mui/icons-material/ElectricalServices";
-
-// * MUI Styled Components
-const CustomBox = styled(Box)(({ theme }) => ({
-  width: "40%",
-  [theme.breakpoints.down("md")]: {
-    width: "85%",
-  },
-}));
 
 const CardContainer = styled(Box)(({ theme }) => ({
   display: "flex",

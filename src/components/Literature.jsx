@@ -32,24 +32,6 @@ const VerticalDivider = styled("div")(({ theme }) => ({
   },
 }));
 
-const LargeText = styled(Typography)(({ theme }) => ({
-  fontSize: "64px",
-  color: "#000",
-  fontWeight: "700",
-  [theme.breakpoints.down("md")]: {
-    fontSize: "32px",
-  },
-}));
-
-const SmallText = styled(Typography)(({ theme }) => ({
-  fontSize: "18px",
-  color: "#7B8087",
-  fontWeight: "500",
-  [theme.breakpoints.down("md")]: {
-    fontSize: "14px",
-  },
-}));
-
 export default function Literature({ domainRef }) {
   return (
     <Container sx={{ marginTop: 8, marginBottom: 16 }} ref={domainRef}>
